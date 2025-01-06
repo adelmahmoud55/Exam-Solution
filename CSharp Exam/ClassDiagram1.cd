@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CSharp_Exam.Answer">
+    <Position X="10" Y="1" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Answer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharp_Exam.Exam">
+    <Position X="18.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAgAAACAAAAABAAAQA=</HashCode>
+      <FileName>Exam.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ListOfQuestions" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CSharp_Exam.FinalExam">
+    <Position X="20" Y="3.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAAA=</HashCode>
+      <FileName>FinalExam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharp_Exam.PracticalExam">
+    <Position X="17.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="CSharp_Exam.Exam" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="20" Y="2.632" />
+        <Point X="20" Y="3.375" />
+        <Point X="18.5" Y="3.375" />
+        <Point X="18.5" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAAA=</HashCode>
+      <FileName>PracticalExam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharp_Exam.Question">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAAAAAAECAADAAAAAAAAAAAAAAQAAAAABAA=</HashCode>
+      <FileName>Question.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AnswerList" />
+      <Property Name="UserAnswer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CSharp_Exam.MCQQuestion">
+    <Position X="15.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MCQQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharp_Exam.TFQuestion">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TFQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharp_Exam.Subject">
+    <Position X="22.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAQAACAAAAA=</HashCode>
+      <FileName>Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
